@@ -1,0 +1,107 @@
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/labri_codebase/!svn/ver/5/trunk/Prototype/iPhoneCode/niw-iphone_opencv_test-a2e6c08/opencv_armv6/include/opencv
+END
+cvvidsurv.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/labri_codebase/!svn/ver/5/trunk/Prototype/iPhoneCode/niw-iphone_opencv_test-a2e6c08/opencv_armv6/include/opencv/cvvidsurv.hpp
+END
+cvtypes.h
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/labri_codebase/!svn/ver/5/trunk/Prototype/iPhoneCode/niw-iphone_opencv_test-a2e6c08/opencv_armv6/include/opencv/cvtypes.h
+END
+cxtypes.h
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/labri_codebase/!svn/ver/5/trunk/Prototype/iPhoneCode/niw-iphone_opencv_test-a2e6c08/opencv_armv6/include/opencv/cxtypes.h
+END
+cvwimage.h
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/labri_codebase/!svn/ver/5/trunk/Prototype/iPhoneCode/niw-iphone_opencv_test-a2e6c08/opencv_armv6/include/opencv/cvwimage.h
+END
+cv.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/labri_codebase/!svn/ver/5/trunk/Prototype/iPhoneCode/niw-iphone_opencv_test-a2e6c08/opencv_armv6/include/opencv/cv.hpp
+END
+cv.h
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/labri_codebase/!svn/ver/5/trunk/Prototype/iPhoneCode/niw-iphone_opencv_test-a2e6c08/opencv_armv6/include/opencv/cv.h
+END
+ml.h
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/labri_codebase/!svn/ver/5/trunk/Prototype/iPhoneCode/niw-iphone_opencv_test-a2e6c08/opencv_armv6/include/opencv/ml.h
+END
+cvmat.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/labri_codebase/!svn/ver/5/trunk/Prototype/iPhoneCode/niw-iphone_opencv_test-a2e6c08/opencv_armv6/include/opencv/cvmat.hpp
+END
+cvcompat.h
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/labri_codebase/!svn/ver/5/trunk/Prototype/iPhoneCode/niw-iphone_opencv_test-a2e6c08/opencv_armv6/include/opencv/cvcompat.h
+END
+cxcore.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/labri_codebase/!svn/ver/5/trunk/Prototype/iPhoneCode/niw-iphone_opencv_test-a2e6c08/opencv_armv6/include/opencv/cxcore.hpp
+END
+cxcore.h
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/labri_codebase/!svn/ver/5/trunk/Prototype/iPhoneCode/niw-iphone_opencv_test-a2e6c08/opencv_armv6/include/opencv/cxcore.h
+END
+cxerror.h
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/labri_codebase/!svn/ver/5/trunk/Prototype/iPhoneCode/niw-iphone_opencv_test-a2e6c08/opencv_armv6/include/opencv/cxerror.h
+END
+highgui.h
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/labri_codebase/!svn/ver/5/trunk/Prototype/iPhoneCode/niw-iphone_opencv_test-a2e6c08/opencv_armv6/include/opencv/highgui.h
+END
+cvver.h
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/labri_codebase/!svn/ver/5/trunk/Prototype/iPhoneCode/niw-iphone_opencv_test-a2e6c08/opencv_armv6/include/opencv/cvver.h
+END
+cxmisc.h
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/labri_codebase/!svn/ver/5/trunk/Prototype/iPhoneCode/niw-iphone_opencv_test-a2e6c08/opencv_armv6/include/opencv/cxmisc.h
+END
+cvaux.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/labri_codebase/!svn/ver/5/trunk/Prototype/iPhoneCode/niw-iphone_opencv_test-a2e6c08/opencv_armv6/include/opencv/cvaux.hpp
+END
+cvaux.h
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/labri_codebase/!svn/ver/5/trunk/Prototype/iPhoneCode/niw-iphone_opencv_test-a2e6c08/opencv_armv6/include/opencv/cvaux.h
+END

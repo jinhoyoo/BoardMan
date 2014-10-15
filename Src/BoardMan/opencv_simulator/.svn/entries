@@ -1,0 +1,41 @@
+10
+
+dir
+99
+http://labri.unfuddle.com/svn/labri_codebase/trunk/Src/BoardMan/opencv_simulator
+http://labri.unfuddle.com/svn/labri_codebase
+
+
+
+2011-12-11T06:09:00.661508Z
+99
+jinhoyoo
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+d3973a00-16eb-4e61-ac0d-b3b7e3fad7a5
+
+
+
+
+
+
+0
+
+include
+dir
+
+lib
+dir
+

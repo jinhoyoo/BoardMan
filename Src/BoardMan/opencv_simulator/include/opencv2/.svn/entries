@@ -1,0 +1,99 @@
+10
+
+dir
+99
+http://labri.unfuddle.com/svn/labri_codebase/trunk/Src/BoardMan/opencv_simulator/include/opencv2
+http://labri.unfuddle.com/svn/labri_codebase
+
+
+
+2011-12-11T06:09:00.661508Z
+99
+jinhoyoo
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+d3973a00-16eb-4e61-ac0d-b3b7e3fad7a5
+
+
+
+
+
+
+0
+
+contrib
+dir
+
+core
+dir
+
+features2d
+dir
+
+flann
+dir
+
+gpu
+dir
+
+imgproc
+dir
+
+legacy
+dir
+
+ml
+dir
+
+objdetect
+dir
+
+opencv.hpp
+file
+
+
+
+
+2011-05-08T09:00:00.000000Z
+49c3719e3997e3dc45e3a6317af2b7ca
+2011-12-11T06:09:00.661508Z
+99
+jinhoyoo
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2760
+
+video
+dir
+

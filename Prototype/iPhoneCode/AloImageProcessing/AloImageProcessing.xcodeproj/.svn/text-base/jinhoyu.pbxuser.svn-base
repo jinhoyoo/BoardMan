@@ -1,0 +1,273 @@
+// !$*UTF8*$!
+{
+	0AAC7B70121990FD0034AE03 /* AloImageProcessing.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1118, 567}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 410}";
+			sepNavWindowFrame = "{{15, 78}, {1177, 695}}";
+		};
+	};
+	0AAC7B71121990FD0034AE03 /* AloImageProcessing.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1118, 2382}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{1675, 824}";
+			sepNavWindowFrame = "{{15, 78}, {1177, 695}}";
+		};
+	};
+	1D3623240D0F684500981E51 /* AloImageProcessingAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {713, 551}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{207, 469}";
+			sepNavWindowFrame = "{{15, 78}, {1177, 695}}";
+		};
+	};
+	1D3623250D0F684500981E51 /* AloImageProcessingAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {2244, 1793}}";
+			sepNavSelRange = "{2915, 0}";
+			sepNavVisRange = "{2660, 332}";
+		};
+	};
+	1D6058900D05DD3D006BFB54 /* AloImageProcessing */ = {
+		activeExec = 0;
+		executables = (
+			6A00602712D3687E003F6C27 /* AloImageProcessing */,
+		);
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 6A00602712D3687E003F6C27 /* AloImageProcessing */;
+		activeSDKPreference = iphonesimulator3.0;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* AloImageProcessing */;
+		codeSenseManager = 6A00603112D36880003F6C27 /* Code sense */;
+		executables = (
+			6A00602712D3687E003F6C27 /* AloImageProcessing */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					535,
+					20,
+					48.16259765625,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 315844734;
+			PBXWorkspaceStateSaveDate = 315844734;
+		};
+		perUserProjectItems = {
+			6A00604412D36907003F6C27 /* PBXTextBookmark */ = 6A00604412D36907003F6C27 /* PBXTextBookmark */;
+			6A00604512D36907003F6C27 /* PBXTextBookmark */ = 6A00604512D36907003F6C27 /* PBXTextBookmark */;
+			6A00604612D36907003F6C27 /* PBXTextBookmark */ = 6A00604612D36907003F6C27 /* PBXTextBookmark */;
+			6A00604712D36907003F6C27 /* PBXTextBookmark */ = 6A00604712D36907003F6C27 /* PBXTextBookmark */;
+			6A00604812D36907003F6C27 /* PBXTextBookmark */ = 6A00604812D36907003F6C27 /* PBXTextBookmark */;
+			6A00604912D36907003F6C27 /* PBXTextBookmark */ = 6A00604912D36907003F6C27 /* PBXTextBookmark */;
+			6A00604A12D36907003F6C27 /* PBXTextBookmark */ = 6A00604A12D36907003F6C27 /* PBXTextBookmark */;
+			6A00604B12D36907003F6C27 /* PBXTextBookmark */ = 6A00604B12D36907003F6C27 /* PBXTextBookmark */;
+			6A00604C12D36907003F6C27 /* PBXTextBookmark */ = 6A00604C12D36907003F6C27 /* PBXTextBookmark */;
+			6A00604D12D36907003F6C27 /* PBXTextBookmark */ = 6A00604D12D36907003F6C27 /* PBXTextBookmark */;
+			6A00604E12D36907003F6C27 /* PBXTextBookmark */ = 6A00604E12D36907003F6C27 /* PBXTextBookmark */;
+			6A00604F12D36907003F6C27 /* PBXTextBookmark */ = 6A00604F12D36907003F6C27 /* PBXTextBookmark */;
+			6A00605012D36907003F6C27 /* PBXTextBookmark */ = 6A00605012D36907003F6C27 /* PBXTextBookmark */;
+		};
+		sourceControlManager = 6A00603012D36880003F6C27 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	29B97316FDCFA39411CA2CEA /* main.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {524, 326}}";
+			sepNavSelRange = "{39, 0}";
+			sepNavVisRange = "{40, 319}";
+		};
+	};
+	32CA4F630368D1EE00C91783 /* AloImageProcessing_Prefix.pch */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {876, 253}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 205}";
+		};
+	};
+	6A00602712D3687E003F6C27 /* AloImageProcessing */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = AloImageProcessing;
+		sourceDirectories = (
+		);
+	};
+	6A00603012D36880003F6C27 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+		};
+	};
+	6A00603112D36880003F6C27 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	6A00604412D36907003F6C27 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 29B97316FDCFA39411CA2CEA /* main.m */;
+		name = "main.m: 4";
+		rLen = 0;
+		rLoc = 39;
+		rType = 0;
+		vrLen = 319;
+		vrLoc = 40;
+	};
+	6A00604512D36907003F6C27 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 32CA4F630368D1EE00C91783 /* AloImageProcessing_Prefix.pch */;
+		name = "AloImageProcessing_Prefix.pch: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 205;
+		vrLoc = 0;
+	};
+	6A00604612D36907003F6C27 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* AloImageProcessingAppDelegate.m */;
+		name = "AloImageProcessingAppDelegate.m: 94";
+		rLen = 0;
+		rLoc = 2915;
+		rType = 0;
+		vrLen = 332;
+		vrLoc = 2660;
+	};
+	6A00604712D36907003F6C27 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* AloImageProcessingAppDelegate.h */;
+		name = "AloImageProcessingAppDelegate.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 430;
+		vrLoc = 0;
+	};
+	6A00604812D36907003F6C27 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* AloImageProcessingAppDelegate.h */;
+		name = "AloImageProcessingAppDelegate.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 310;
+		vrLoc = 0;
+	};
+	6A00604912D36907003F6C27 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* AloImageProcessingAppDelegate.m */;
+		name = "AloImageProcessingAppDelegate.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 325;
+		vrLoc = 0;
+	};
+	6A00604A12D36907003F6C27 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* AloImageProcessingAppDelegate.h */;
+		name = "AloImageProcessingAppDelegate.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 310;
+		vrLoc = 0;
+	};
+	6A00604B12D36907003F6C27 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 32CA4F630368D1EE00C91783 /* AloImageProcessing_Prefix.pch */;
+		name = "AloImageProcessing_Prefix.pch: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 205;
+		vrLoc = 0;
+	};
+	6A00604C12D36907003F6C27 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 29B97316FDCFA39411CA2CEA /* main.m */;
+		name = "main.m: 4";
+		rLen = 0;
+		rLoc = 39;
+		rType = 0;
+		vrLen = 319;
+		vrLoc = 40;
+	};
+	6A00604D12D36907003F6C27 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 32CA4F630368D1EE00C91783 /* AloImageProcessing_Prefix.pch */;
+		name = "AloImageProcessing_Prefix.pch: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 205;
+		vrLoc = 0;
+	};
+	6A00604E12D36907003F6C27 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* AloImageProcessingAppDelegate.h */;
+		name = "AloImageProcessingAppDelegate.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 310;
+		vrLoc = 0;
+	};
+	6A00604F12D36907003F6C27 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* AloImageProcessingAppDelegate.m */;
+		name = "AloImageProcessingAppDelegate.m: 94";
+		rLen = 0;
+		rLoc = 2915;
+		rType = 0;
+		vrLen = 332;
+		vrLoc = 2660;
+	};
+	6A00605012D36907003F6C27 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* AloImageProcessingAppDelegate.h */;
+		name = "AloImageProcessingAppDelegate.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 469;
+		vrLoc = 207;
+	};
+}

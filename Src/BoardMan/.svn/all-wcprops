@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/labri_codebase/!svn/ver/95/trunk/Src/BoardMan
+END
+BMImageProc.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/labri_codebase/!svn/ver/4/trunk/Src/BoardMan/BMImageProc.h
+END
+BMImageProcessor.m
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/labri_codebase/!svn/ver/8/trunk/Src/BoardMan/BMImageProcessor.m
+END
+BoardMan_Prefix.pch
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/labri_codebase/!svn/ver/3/trunk/Src/BoardMan/BoardMan_Prefix.pch
+END
+BMImageProc.m
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/labri_codebase/!svn/ver/4/trunk/Src/BoardMan/BMImageProc.m
+END
+main.mm
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/labri_codebase/!svn/ver/19/trunk/Src/BoardMan/main.mm
+END
+ImageViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/labri_codebase/!svn/ver/46/trunk/Src/BoardMan/ImageViewController.h
+END
+main.m
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/labri_codebase/!svn/ver/3/trunk/Src/BoardMan/main.m
+END
+ImageViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/labri_codebase/!svn/ver/46/trunk/Src/BoardMan/ImageViewController.m
+END
+BMImageProcessor.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/labri_codebase/!svn/ver/8/trunk/Src/BoardMan/BMImageProcessor.h
+END
+MainWindow.xib
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/labri_codebase/!svn/ver/3/trunk/Src/BoardMan/MainWindow.xib
+END
+ImageViewController.xib
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/labri_codebase/!svn/ver/46/trunk/Src/BoardMan/ImageViewController.xib
+END

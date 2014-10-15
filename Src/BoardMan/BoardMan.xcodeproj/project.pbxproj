@@ -1,0 +1,490 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* BoardManAppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* BoardManAppDelegate.mm */; };
+		1D60589B0D05DD56006BFB54 /* main.mm in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.mm */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
+		2899E5220DE3E06400AC0155 /* BoardManViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E5210DE3E06400AC0155 /* BoardManViewController.xib */; };
+		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		28D7ACF80DDB3853001CB0EB /* BoardManViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* BoardManViewController.mm */; };
+		6A2800A613ED41A4002D0674 /* ImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A2800A413ED41A4002D0674 /* ImageViewController.m */; };
+		6A2800A713ED41A4002D0674 /* ImageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6A2800A513ED41A4002D0674 /* ImageViewController.xib */; };
+		6A4EF7EC12E207F90085DDE3 /* BoardManImageProc.mm in Sources */ = {isa = PBXBuildFile; fileRef = 6A4EF7EB12E207F90085DDE3 /* BoardManImageProc.mm */; };
+		6A4F89CB143A057100CD233B /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A4F89CA143A057100CD233B /* AudioToolbox.framework */; };
+		6A4F89CF143A058B00CD233B /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A4F89CE143A058B00CD233B /* SystemConfiguration.framework */; };
+		6A6A570C13FF9D5500ABE094 /* Background.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A6A570B13FF9D5500ABE094 /* Background.png */; };
+		6A6E64951438AF9300A644A9 /* info.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A6E64941438AF9200A644A9 /* info.png */; };
+		6A8690811494FC0400B9E9B1 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A8690801494FC0400B9E9B1 /* iAd.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+		6A9DF28713FED7F20035068F /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A9DF28613FED7F10035068F /* MessageUI.framework */; };
+		6AB76CCB1493AE4A00592C74 /* libopencv_core.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AB76CC81493AE4A00592C74 /* libopencv_core.a */; };
+		6AB76CCC1493AE4B00592C74 /* libopencv_imgproc.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AB76CC91493AE4A00592C74 /* libopencv_imgproc.a */; };
+		6AB76CCF1493B78C00592C74 /* libopencv_objdetect.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AB76CCE1493B78C00592C74 /* libopencv_objdetect.a */; };
+		6AE92D68140413B50043BCD2 /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 6AE92D63140413B50043BCD2 /* Icon-72.png */; };
+		6AE92D69140413B50043BCD2 /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = 6AE92D64140413B50043BCD2 /* Icon-Small.png */; };
+		6AE92D6A140413B50043BCD2 /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6AE92D65140413B50043BCD2 /* Icon-Small@2x.png */; };
+		6AE92D6B140413B50043BCD2 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 6AE92D66140413B50043BCD2 /* Icon.png */; };
+		6AE92D6C140413B50043BCD2 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6AE92D67140413B50043BCD2 /* Icon@2x.png */; };
+		6AE92D7A140414A30043BCD2 /* Icon-Small-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 6AE92D79140414A30043BCD2 /* Icon-Small-50.png */; };
+		6AF77D4B1494799D00379808 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AF77D4A1494799D00379808 /* Accelerate.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* BoardManAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BoardManAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* BoardManAppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = BoardManAppDelegate.mm; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* BoardMan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BoardMan.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2899E5210DE3E06400AC0155 /* BoardManViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BoardManViewController.xib; sourceTree = "<group>"; };
+		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		28D7ACF60DDB3853001CB0EB /* BoardManViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BoardManViewController.h; sourceTree = "<group>"; };
+		28D7ACF70DDB3853001CB0EB /* BoardManViewController.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; path = BoardManViewController.mm; sourceTree = "<group>"; usesTabs = 1; };
+		29B97316FDCFA39411CA2CEA /* main.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = main.mm; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* BoardMan_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BoardMan_Prefix.pch; sourceTree = "<group>"; };
+		6A2800A313ED41A4002D0674 /* ImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImageViewController.h; path = ../ImageViewController.h; sourceTree = "<group>"; };
+		6A2800A413ED41A4002D0674 /* ImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ImageViewController.m; path = ../ImageViewController.m; sourceTree = "<group>"; };
+		6A2800A513ED41A4002D0674 /* ImageViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ImageViewController.xib; sourceTree = "<group>"; };
+		6A4EF7EA12E207F90085DDE3 /* BoardManImageProc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BoardManImageProc.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.c; };
+		6A4EF7EB12E207F90085DDE3 /* BoardManImageProc.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = BoardManImageProc.mm; sourceTree = "<group>"; };
+		6A4F89CA143A057100CD233B /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		6A4F89CE143A058B00CD233B /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		6A6A570B13FF9D5500ABE094 /* Background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Background.png; path = images/Background.png; sourceTree = "<group>"; };
+		6A6E64941438AF9200A644A9 /* info.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = info.png; path = images/info.png; sourceTree = "<group>"; };
+		6A8690801494FC0400B9E9B1 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		6A9DF28613FED7F10035068F /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		6AB76CC81493AE4A00592C74 /* libopencv_core.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libopencv_core.a; path = opencv_simulator/lib/libopencv_core.a; sourceTree = "<group>"; };
+		6AB76CC91493AE4A00592C74 /* libopencv_imgproc.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libopencv_imgproc.a; path = opencv_simulator/lib/libopencv_imgproc.a; sourceTree = "<group>"; };
+		6AB76CCE1493B78C00592C74 /* libopencv_objdetect.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libopencv_objdetect.a; path = opencv_simulator/lib/libopencv_objdetect.a; sourceTree = "<group>"; };
+		6AE92D63140413B50043BCD2 /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-72.png"; path = "images/Icon-72.png"; sourceTree = "<group>"; };
+		6AE92D64140413B50043BCD2 /* Icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Small.png"; path = "images/Icon-Small.png"; sourceTree = "<group>"; };
+		6AE92D65140413B50043BCD2 /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Small@2x.png"; path = "images/Icon-Small@2x.png"; sourceTree = "<group>"; };
+		6AE92D66140413B50043BCD2 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.png; path = images/Icon.png; sourceTree = "<group>"; };
+		6AE92D67140413B50043BCD2 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon@2x.png"; path = "images/Icon@2x.png"; sourceTree = "<group>"; };
+		6AE92D79140414A30043BCD2 /* Icon-Small-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Small-50.png"; path = "images/Icon-Small-50.png"; sourceTree = "<group>"; };
+		6AF77D4A1494799D00379808 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		8D1107310486CEB800E47090 /* BoardMan-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "BoardMan-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A8690811494FC0400B9E9B1 /* iAd.framework in Frameworks */,
+				6AF77D4B1494799D00379808 /* Accelerate.framework in Frameworks */,
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */,
+				6A9DF28713FED7F20035068F /* MessageUI.framework in Frameworks */,
+				6A4F89CB143A057100CD233B /* AudioToolbox.framework in Frameworks */,
+				6A4F89CF143A058B00CD233B /* SystemConfiguration.framework in Frameworks */,
+				6AB76CCB1493AE4A00592C74 /* libopencv_core.a in Frameworks */,
+				6AB76CCC1493AE4B00592C74 /* libopencv_imgproc.a in Frameworks */,
+				6AB76CCF1493B78C00592C74 /* libopencv_objdetect.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				6A4EF7C412E200940085DDE3 /* BoardManImgProc */,
+				6A0AFB5013F033390096F934 /* SubView */,
+				1D3623240D0F684500981E51 /* BoardManAppDelegate.h */,
+				1D3623250D0F684500981E51 /* BoardManAppDelegate.mm */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* BoardMan.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				6AB76CC71493ADEA00592C74 /* Libraries */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* BoardMan_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.mm */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6A6E64941438AF9200A644A9 /* info.png */,
+				6AE92D79140414A30043BCD2 /* Icon-Small-50.png */,
+				6AE92D63140413B50043BCD2 /* Icon-72.png */,
+				6AE92D64140413B50043BCD2 /* Icon-Small.png */,
+				6AE92D65140413B50043BCD2 /* Icon-Small@2x.png */,
+				6AE92D66140413B50043BCD2 /* Icon.png */,
+				6AE92D67140413B50043BCD2 /* Icon@2x.png */,
+				6A6A570B13FF9D5500ABE094 /* Background.png */,
+				2899E5210DE3E06400AC0155 /* BoardManViewController.xib */,
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* BoardMan-Info.plist */,
+				6A2800A513ED41A4002D0674 /* ImageViewController.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6A8690801494FC0400B9E9B1 /* iAd.framework */,
+				6AF77D4A1494799D00379808 /* Accelerate.framework */,
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765A40DF7441C002DB57D /* CoreGraphics.framework */,
+				6A9DF28613FED7F10035068F /* MessageUI.framework */,
+				6A4F89CA143A057100CD233B /* AudioToolbox.framework */,
+				6A4F89CE143A058B00CD233B /* SystemConfiguration.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6A0AFB5013F033390096F934 /* SubView */ = {
+			isa = PBXGroup;
+			children = (
+				6A2800A313ED41A4002D0674 /* ImageViewController.h */,
+				6A2800A413ED41A4002D0674 /* ImageViewController.m */,
+				28D7ACF60DDB3853001CB0EB /* BoardManViewController.h */,
+				28D7ACF70DDB3853001CB0EB /* BoardManViewController.mm */,
+			);
+			name = SubView;
+			sourceTree = "<group>";
+		};
+		6A4EF7C412E200940085DDE3 /* BoardManImgProc */ = {
+			isa = PBXGroup;
+			children = (
+				6A4EF7EA12E207F90085DDE3 /* BoardManImageProc.h */,
+				6A4EF7EB12E207F90085DDE3 /* BoardManImageProc.mm */,
+			);
+			name = BoardManImgProc;
+			sourceTree = "<group>";
+		};
+		6AB76CC71493ADEA00592C74 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				6AB76CCE1493B78C00592C74 /* libopencv_objdetect.a */,
+				6AB76CC81493AE4A00592C74 /* libopencv_core.a */,
+				6AB76CC91493AE4A00592C74 /* libopencv_imgproc.a */,
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* BoardMan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "BoardMan" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BoardMan;
+			productName = BoardMan;
+			productReference = 1D6058910D05DD3D006BFB54 /* BoardMan.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "BoardMan" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* BoardMan */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				2899E5220DE3E06400AC0155 /* BoardManViewController.xib in Resources */,
+				6A2800A713ED41A4002D0674 /* ImageViewController.xib in Resources */,
+				6A6A570C13FF9D5500ABE094 /* Background.png in Resources */,
+				6AE92D68140413B50043BCD2 /* Icon-72.png in Resources */,
+				6AE92D69140413B50043BCD2 /* Icon-Small.png in Resources */,
+				6AE92D6A140413B50043BCD2 /* Icon-Small@2x.png in Resources */,
+				6AE92D6B140413B50043BCD2 /* Icon.png in Resources */,
+				6AE92D6C140413B50043BCD2 /* Icon@2x.png in Resources */,
+				6AE92D7A140414A30043BCD2 /* Icon-Small-50.png in Resources */,
+				6A6E64951438AF9300A644A9 /* info.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.mm in Sources */,
+				1D3623260D0F684500981E51 /* BoardManAppDelegate.mm in Sources */,
+				28D7ACF80DDB3853001CB0EB /* BoardManViewController.mm in Sources */,
+				6A4EF7EC12E207F90085DDE3 /* BoardManImageProc.mm in Sources */,
+				6A2800A613ED41A4002D0674 /* ImageViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = (
+					armv6,
+					armv7,
+				);
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = BoardMan_Prefix.pch;
+				GCC_VERSION = "";
+				HEADER_SEARCH_PATHS = "";
+				"HEADER_SEARCH_PATHS[sdk=iphoneos*][arch=*]" = "\"$(SRCROOT)/opencv_device/include\"";
+				"HEADER_SEARCH_PATHS[sdk=iphonesimulator*][arch=*]" = "\"$(SRCROOT)/opencv_simulator/include\"";
+				INFOPLIST_FILE = "BoardMan-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/opencv_simulator/lib\"",
+				);
+				"LIBRARY_SEARCH_PATHS[sdk=iphoneos*][arch=*]" = "\"$(SRCROOT)/opencv_device/lib\"";
+				"LIBRARY_SEARCH_PATHS[sdk=iphonesimulator*][arch=*]" = "\"$(SRCROOT)/opencv_simulator/lib\"";
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"-lstdc++",
+					"-lz",
+				);
+				PRODUCT_NAME = BoardMan;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = (
+					armv6,
+					armv7,
+				);
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = BoardMan_Prefix.pch;
+				GCC_VERSION = "";
+				HEADER_SEARCH_PATHS = "";
+				"HEADER_SEARCH_PATHS[sdk=iphoneos*][arch=*]" = "\"$(SRCROOT)/opencv_device/include\"";
+				"HEADER_SEARCH_PATHS[sdk=iphonesimulator*][arch=*]" = "\"$(SRCROOT)/opencv_simulator/include\"";
+				INFOPLIST_FILE = "BoardMan-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/opencv_simulator/lib\"",
+				);
+				"LIBRARY_SEARCH_PATHS[sdk=iphoneos*][arch=*]" = "\"$(SRCROOT)/opencv_device/lib\"";
+				"LIBRARY_SEARCH_PATHS[sdk=iphonesimulator*][arch=*]" = "\"$(SRCROOT)/opencv_simulator/lib\"";
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"-lstdc++",
+					"-lz",
+				);
+				PRODUCT_NAME = BoardMan;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+			};
+			name = Release;
+		};
+		6AF91DAB1406A97A0016CDC2 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Yoo Yoo (U37SYLQ4RD)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Yoo Yoo (U37SYLQ4RD)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				MACH_O_TYPE = mh_execute;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"-lstdc++",
+					"-lz",
+					"\"$(SRCROOT)/OpenCV/opencv_armv6/lib/libcxcore.a\"",
+					"\"$(SRCROOT)/OpenCV/opencv_armv6/lib/libcv.a\"",
+				);
+				PROVISIONING_PROFILE = "B26B1FE1-2AB9-453D-B098-7977591A5E8F";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "947586BE-9A0A-4DB9-B783-D863B9F58578";
+				SDKROOT = iphoneos;
+			};
+			name = Distribution;
+		};
+		6AF91DAC1406A97A0016CDC2 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = (
+					armv6,
+					armv7,
+				);
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				COPY_PHASE_STRIP = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = BoardMan_Prefix.pch;
+				GCC_VERSION = "";
+				HEADER_SEARCH_PATHS = "";
+				"HEADER_SEARCH_PATHS[sdk=iphoneos*][arch=*]" = "\"$(SRCROOT)/opencv_device/include\"";
+				"HEADER_SEARCH_PATHS[sdk=iphonesimulator*][arch=*]" = "\"$(SRCROOT)/opencv_simulator/include\"";
+				INFOPLIST_FILE = "BoardMan-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/opencv_simulator/lib\"",
+				);
+				"LIBRARY_SEARCH_PATHS[sdk=iphoneos*][arch=*]" = "\"$(SRCROOT)/opencv_device/lib\"";
+				"LIBRARY_SEARCH_PATHS[sdk=iphonesimulator*][arch=*]" = "\"$(SRCROOT)/opencv_simulator/lib\"";
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"-lstdc++",
+					"-lz",
+				);
+				PRODUCT_NAME = BoardMan;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+			};
+			name = Distribution;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Yoo Yoo (U37SYLQ4RD)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				MACH_O_TYPE = mh_execute;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"-lstdc++",
+					"-lz",
+					"\"$(SRCROOT)/OpenCV/opencv_sim/lib/libcv.a\"",
+					"\"$(SRCROOT)/OpenCV/opencv_sim/lib/libcxcore.a\"",
+				);
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "B26B1FE1-2AB9-453D-B098-7977591A5E8F";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Yoo Yoo (U37SYLQ4RD)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Yoo Yoo (U37SYLQ4RD)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				MACH_O_TYPE = mh_execute;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"-lstdc++",
+					"-lz",
+					"\"$(SRCROOT)/OpenCV/opencv_armv6/lib/libcxcore.a\"",
+					"\"$(SRCROOT)/OpenCV/opencv_armv6/lib/libcv.a\"",
+				);
+				PROVISIONING_PROFILE = "B26B1FE1-2AB9-453D-B098-7977591A5E8F";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "B26B1FE1-2AB9-453D-B098-7977591A5E8F";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "BoardMan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+				6AF91DAC1406A97A0016CDC2 /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Distribution;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "BoardMan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+				6AF91DAB1406A97A0016CDC2 /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Distribution;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
